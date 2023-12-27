@@ -1,0 +1,14 @@
+{
+  "name": "cloa",
+  "version": "1.0.0",
+  "description": "Please refer to https://github.com/apollox-broker/apollox-broker-web-sdk#configs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "local-web-server": "^5.3.0"
+  }
+}

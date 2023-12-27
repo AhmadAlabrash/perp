@@ -1,0 +1,16 @@
+div[class^='tooltip'] {
+  background-color: var(--colors-interactive-primary) !important;
+  color: #fff !important;
+  white-space: pre-line !important;
+}
+div[class^='tooltip'] div{
+  color: #fff !important;
+  position: relative;
+  z-index: 9;
+}
+div[class^='tooltip']:not(div[class^='right']):after {
+  border-left-color: var(--colors-interactive-primary) !important;
+}
+div[class^='tooltip']:before {
+  border-color: #0000 var(--colors-interactive-primary) #0000 #0000 !important;
+}
